@@ -1,0 +1,93 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.b79723458696bc2177fc.js",
+        "/polyfills.a91f07db3222f92a8cc8.js",
+        "/runtime.6afe30102d8fe7337431.js",
+        "/scripts.4a4077d15201ba9c373b.js",
+        "/styles.c7eb331c07beeee22503.css"
+      ],
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/css\\?family=Roboto:300,700"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/css/bootstrap.css",
+        "/assets/css/material-icon.css",
+        "/assets/css/sidebar.css",
+        "/assets/images/Stop-Logo.png",
+        "/assets/images/footer-logo.png",
+        "/assets/images/goe.jpg",
+        "/assets/images/logo.png",
+        "/assets/images/main2.jpg",
+        "/assets/images/screen/cust.png",
+        "/assets/images/screen/db.png",
+        "/assets/images/screen/editCust.png",
+        "/assets/images/screen/editUser.png",
+        "/assets/images/screen/mainmenu.png",
+        "/assets/images/screen/mainmenu_edited.jpg",
+        "/assets/images/screen/report.png",
+        "/assets/images/screen/rg.png",
+        "/assets/video/faq.mp4"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/css/bootstrap.css": "ad3f9a5afbc3fc1b92e331a1bbb57ce1605485a6",
+    "/assets/css/material-icon.css": "3df0dca298dedb97a314a6be45f4b3147f04a7a0",
+    "/assets/css/sidebar.css": "fbd52be18b2daa5c6a3c3dda8b9c718f54a51ee2",
+    "/assets/images/Stop-Logo.png": "dda0c0143de49b181788ff69737b0098ad86abfa",
+    "/assets/images/footer-logo.png": "3abb332324bd2ae53b715a7f717df0d80436dbdf",
+    "/assets/images/goe.jpg": "ec261872cb4319a3124f39dbdca0663964366f6f",
+    "/assets/images/logo.png": "815b9ffbfe41ff8227956d850e471be56fc425e7",
+    "/assets/images/main2.jpg": "78cc798a881b6a0326e54c6c9e89647b9abfc08c",
+    "/assets/images/screen/cust.png": "c0c737f1f4457bc9c21e8389c8d50ef2b3e05f55",
+    "/assets/images/screen/db.png": "0aed65aa16b1117efddd943e5d7a01178f49bf3c",
+    "/assets/images/screen/editCust.png": "e3cf8b987fc28baf70af530ef282e1274bb0a897",
+    "/assets/images/screen/editUser.png": "889e896eadde5a30eb47c4254e39b1714f460f59",
+    "/assets/images/screen/mainmenu.png": "82f5abb4a991f45f171dd6083bd62214b35b4a8b",
+    "/assets/images/screen/mainmenu_edited.jpg": "c52b104d1b8c795ae17493b24adf9d1639d3482a",
+    "/assets/images/screen/report.png": "0723b6634c54d6d2a098a8cfdeae57d906eaa6ac",
+    "/assets/images/screen/rg.png": "de688e173788e517b009e00ea6ed2b9f31a97dab",
+    "/assets/video/faq.mp4": "4677b93bb06946e6b3b09f1fa42a41d39cb21aae",
+    "/favicon.ico": "ad7e12c70cf157a1c6ad115685d29a9896a8a558",
+    "/index.html": "0936274ad4633f88822e9a04969bb29d3f14982f",
+    "/main.b79723458696bc2177fc.js": "029ab47ed91ac532fe7f72fb74b2e1a9811c7b75",
+    "/polyfills.a91f07db3222f92a8cc8.js": "f2f7ad3607f3220da6135cf4120332afe543cf57",
+    "/runtime.6afe30102d8fe7337431.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
+    "/scripts.4a4077d15201ba9c373b.js": "2111c7276ddc53390318ef9e08dc63eb65172e05",
+    "/styles.c7eb331c07beeee22503.css": "44325638307dcb49e901b03e3bfc98c6d4b6a899"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*\\.[^\\/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*\\/.*$"
+    }
+  ]
+}
